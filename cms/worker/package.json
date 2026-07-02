@@ -8,10 +8,13 @@
     "start": "npm run build && npm run worker"
   },
   "dependencies": {
+    "imapflow": "^1.4.3",
+    "mailparser": "^3.9.12",
     "mongodb": "^6.0.0",
     "nodemailer": "^6.10.1"
   },
   "devDependencies": {
+    "@types/mailparser": "^3.4.6",
     "@types/node": "^20.0.0",
     "@types/nodemailer": "^6.4.24",
     "typescript": "^5.0.0"
